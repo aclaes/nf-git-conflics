@@ -1,2 +1,2 @@
 document.querySelector('[data-js="year"]').textContent =
-  new Date().getFullYear();
+  new Date().toLocaleDateString("en-US");
